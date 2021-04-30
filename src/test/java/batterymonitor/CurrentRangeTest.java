@@ -33,7 +33,7 @@ public class CurrentRangeTest {
 		RangeAndReading rangeAndReading = new RangeAndReading("3,5", 4);
 
 		assertEquals(rangeAndReading.range, rangeAndReadingList.get(0).range);
-		
+
 		RangeAndReading secondRangeAndReading = new RangeAndReading("10,12", 3);
 
 		assertEquals(secondRangeAndReading.range, rangeAndReadingList.get(1).range);
